@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "emoji-mart": "^5.5.2",
+    "picmo": "^5.8.1"
+  }
+}

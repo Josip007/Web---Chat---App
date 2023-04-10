@@ -1,0 +1,99 @@
+body {
+  background-image: url(./Background/Background.jpg);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#yourname {
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+}
+
+#name {
+  background-color: rgb(211, 88, 233);
+  padding: 12px 18px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: text;
+  margin: 5px;
+  width: 100%;
+  display: inline-block;
+  width: 10vw;
+}
+
+#name-label {
+  color: rgb(13, 7, 13);
+  background: linear-gradient(rgb(222, 186, 241), rgb(173, 29, 171));
+  border: 1px solid rgb(209, 92, 224);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#name:focus {
+  outline: none;
+  background-color: rgb(223, 118, 241);
+  box-shadow: 3px 3px #6a1492, -3px -3px #6a1492;
+}
+
+#nameButton {
+  background-color: rgb(211, 88, 233);
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px;
+}
+
+#message-input {
+  width: 70vw;
+  position: sticky;
+  top: 0;
+}
+
+#message-input__message {
+  background-color: rgb(211, 88, 233);
+  padding: 12px 18px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: text;
+  margin: 5px;
+  width: 100%;
+  display: inline-block;
+}
+
+#message-input__message:focus {
+  outline: none;
+  background-color: rgb(223, 118, 241);
+  box-shadow: 3px 3px #6a1492, -3px -3px #6a1492;
+}
+
+#message-input__send {
+  background-color: rgb(211, 88, 233);
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: rgb(52, 14, 83);
+  opacity: 0.6;
+}
+
+::placeholder {
+  color: rgb(52, 14, 83);
+  opacity: 0.6;
+}
+
+button:focus {
+  outline: none;
+  background-color: rgb(223, 118, 241);
+  box-shadow: 3px 3px #6a1492, -3px -3px #6a1492;
+}/*# sourceMappingURL=style.css.map */
